@@ -1,4 +1,4 @@
-# GCP Vault Unseal
+# `shortrib.app` DNS Automation
 
 Creates the necessary GCP objects to manage DNS for `shortrib.app`
 
@@ -23,7 +23,7 @@ To prepare a service account to execute these templates, execute the following s
 
     ```bash
     SERVICE_ACCOUNT_EMAIL=$(gcloud iam service-accounts list \
-      --filter="displayName:Vault unseal setup account" \
+      --filter="displayName:shortrib.app DNS management account" \
       --format 'value(email)')
     ```
 
