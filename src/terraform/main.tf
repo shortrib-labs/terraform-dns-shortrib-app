@@ -41,6 +41,6 @@ resource "google_dns_record_set" "kubernetes" {
   ttl          = 60
 
   rrdatas = [
-    "workload.crdant.io.beta.tailscale.net."
+    "poblano.crdant.io.beta.tailscale.net."
   ]
 }
